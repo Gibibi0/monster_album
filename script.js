@@ -7,3 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     elevation: 50
   })
 })
+
+document.getElementById("next").addEventListener("click", () => {
+  $("#album").turn("next")
+})
+document.getElementById("prev").addEventListener("click", () => {
+  $("#album").turn("previous")
+})
